@@ -12,7 +12,7 @@
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="manifest" href="manifest.json">
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </head>
 <!-- Начинаем верстать 85 -->
 <body>
@@ -37,11 +37,11 @@
       </ul>
     </nav>
     <div class="header__lang">
-      <span class="header__lang-en">eng</span>
+      <span class="header__lang-en">eng</span> <span class="header__lang-arrow"></span>
     </div>
     <button class="header__btn">Contact</button>
   </header>
-  <main class="main ">
+  <main class="main">
     <section class="promo wrapper">
       <div class="promo__background-star"></div>
       <div class="promo__background-house"></div>
@@ -68,7 +68,53 @@
         </div>
       </div>
     </section>
-    
+    <section class="form">
+       <div class="container">
+        <form class="form__content">
+          <h2 class="form__title">Search the price you looking for</h2>
+          <input class="form__input-loc" type="text" placeholder="Location" required>
+          <input class="form__input-type" type="text" placeholder="Type" required>
+          <input class="form__input-budget" type="text" placeholder="Budget" required>
+          <button class="form__btn">Search Now</button>
+        </form>
+        <div class="pros">
+                <div class="pros__wrapper">
+                  <div class="pros__card pros__card--arc">
+                    <h3 class="pros__title">Arch & Interior</h3>
+                    <p class="pros__subtitle">We bring magic in the building and interior to fulfill your dream home.</p>
+                    <a href="#" class="pros__link pros__link-active">120 Projects</a>
+                  </div>
+                  <div class="pros__card pros__card--dec">
+                    <h3 class="pros__title">Design</h3>
+                    <p class="pros__subtitle">Creative design with digital products that help you promote your business.</p>
+                    <a href="#" class="pros__link">50 Projects</a>
+                  </div>
+                  <div class="pros__card pros__card--prod">
+                    <h3 class="pros__title">Product</h3>
+                    <p class="pros__subtitle">We bring magic in the building & interior to fulfill your dream home.</p>
+                    <a href="#" class="pros__link">310 Projects</a>
+                  </div>
+                </div>
+              </div>
+      </div> 
+      
+    </section>
+
+
+
+
+    <section class="offer">
+      <div class="wrapper">
+        <div class="offer__wrapper">
+          <img src="../img/home.png" alt="home" class="offer__img">
+          <div class="offer__text">
+            <h2 class="offer__title">We aim to set the trends of your modern living.</h2>
+            <p class="offer__subtitle">Over 39,000 people work for us in more than 70 countries all over the This breadth of global coverage, combined with specialist services. Archee allow you to design unlimited panels and real estate custom forms to capture leads and keep record of all information.</p>
+            <button class="offer__btn">Contact Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
 

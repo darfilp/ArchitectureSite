@@ -15,7 +15,7 @@
   \************************/
 /***/ (function() {
 
-eval("\n\n//# sourceURL=webpack://gulp-starter/./src/js/main.js?");
+eval("const arrowLang = document.querySelector('.header__lang-js');\r\n\r\narrowLang.addEventListener('click', (e) => {\r\n    console.log(e)\r\n})\r\n\r\nconsole.log(arrowLang)\n\n//# sourceURL=webpack://gulp-starter/./src/js/main.js?");
 
 /***/ })
 
