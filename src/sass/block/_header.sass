@@ -1,0 +1,56 @@
+.header
+    padding: 38px 15px 24px 15px
+    display: flex
+    &__lang
+        position: relative
+        margin-right: 40px
+        margin: -3px 0 -1px
+        &-en
+            margin-right: 9px
+            font-weight: 500
+            font-size: 14px
+            line-height: 21px
+            text-transform: uppercase
+        &-en::after
+            cursor: pointer
+            content: url('../img/arrow__down.svg')
+            position: absolute
+            top: 13%
+            right: -11px
+        &-img
+    &__btn
+        font-family: Cabinet Grotesk
+        background: #D6680F
+        border: none
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        border-radius: 6px
+        padding: 10px 30px
+        font-weight: bold
+        font-size: 16px
+        line-height: 20px
+        color: #FFFFFF
+        margin-left: auto
+        margin-top: -8px
+.logo
+    margin-right: 297px
+.nav
+    margin-right: 221px
+    ul
+        list-style: none
+        padding: 0
+        margin: -3px 0 -1px
+    &__item
+        a
+            text-transform: uppercase
+            text-decoration: none
+            font-weight: 500
+            font-size: 14px
+            line-height: 21px
+            color: #2C2321
+        a:hover
+            text-decoration-line: underline
+    &__item:not(:last-child)
+        margin-right: 30px
+    &__list
+        display: flex
+        align-items: flex-start

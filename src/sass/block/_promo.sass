@@ -1,0 +1,136 @@
+.promo
+    position: relative
+    height: 820px
+    &__content
+        position: relative
+        z-index: 2
+    &__background-star
+        background-image: url('../img/star.svg')
+        position: absolute
+        background-repeat: no-repeat
+        width: 249px
+        height: 220.94px
+        left: 25px
+        top: -8px
+        z-index: 1
+    &__background-house
+        background-image: url('../img/house.png')
+        position: absolute
+        background-repeat: no-repeat
+        width: 838px
+        height: 600px
+        right: 0
+        top: 114px
+    &__title
+        max-width: 533px
+        font-family: Cabinet Grotesk
+        font-weight: 900
+        font-size: 62px
+        line-height: 77px
+        color: #2C2321
+        margin: 0
+        margin-top: 115px
+        margin-bottom: 20px
+    &__desc
+        max-width: 452px
+        font-size: 18px
+        line-height: 30px
+        color: #61594D
+        margin: 0
+        margin-bottom: 34px
+    &__btn
+        cursor: pointer
+        background: #D6680F
+        border: none
+        border-radius: 6px
+        padding: 20px 40px
+        font-family: Cabinet Grotesk
+        font-weight: bold
+        font-size: 16px
+        line-height: 20px
+        color: #FFFFFF
+    &__info
+        display: flex
+        justify-content: space-between
+        padding-top: 96px
+        position: relative
+    &__rating
+        &-title
+            margin-right: 10px
+        &-desc
+            font-size: 16px
+            line-height: 24px
+            letter-spacing: 0.02em
+            color: #61594D
+            margin: 0
+            margin-top: 4px
+            margin-bottom: 20px
+        &-score::before
+            margin-right: 5px
+            content: url('../img/star-rate.svg')
+        span
+            font-family: Cabinet Grotesk
+            font-weight: bold
+            font-size: 20px
+            line-height: 22px
+            letter-spacing: 0.02em
+        &-clients
+            display: flex
+        &-client
+            width: 48px
+            height: 48px
+            background-color: #D6680F
+            border-radius: 50%
+        &-client:not(:first-child)
+            margin-left: -10px
+        &--img1
+            background-image: url('../img/img1.png')
+            background-size: cover
+            background-repeat: no-repeat
+            border: 1.5px solid #FFFFFF
+        &--img2
+            background-image: url('../img/img2.png')
+            background-size: cover
+            background-repeat: no-repeat
+            border: 1.5px solid #FFFFFF
+        &--img3
+            background-image: url('../img/img3.png')
+            background-size: cover
+            background-repeat: no-repeat
+            border: 1.5px solid #FFFFFF
+        &--img4
+            background-image: url('../img/img4.png')
+            background-size: cover
+            background-repeat: no-repeat
+            border: 1.5px solid #FFFFFF
+        &--count
+            display: flex
+            justify-content: center
+            align-items: center
+            span
+                font-family: Cabinet Grotesk
+                font-weight: bold
+                font-size: 16px
+                line-height: 16px
+                letter-spacing: 0.02em
+                color: #FFFFFF
+                top: 10px
+    &__book
+        max-width: 249px
+        margin-top: auto
+        &-number
+            display: block
+            font-family: Cabinet Grotesk
+            font-weight: bold
+            font-size: 16px
+            line-height: 20px
+            color: #D6680F
+            margin-bottom: 10px
+        &-desc
+            margin-top: 10px
+            font-weight: 500
+            font-size: 12px
+            line-height: 18px
+            color: #61594D
+            margin: 0
+            margin-bottom: -2px
