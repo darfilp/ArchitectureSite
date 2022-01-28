@@ -1,0 +1,55 @@
+.articles
+    padding-top: 120px
+    padding-bottom: 120px
+    &__wrapper
+        display: flex
+        justify-content: space-between
+        article
+            max-width: 535px
+            cursor: pointer
+    &__img
+        margin-bottom: 41px
+    &__text
+        position: relative
+        span
+            font-weight: bold
+            font-size: 14px
+            line-height: 28px
+            color: #61594D
+            margin-right: 30px
+        &--data
+            margin-left: 1px
+            &::after
+                content: ""
+                position: absolute
+                width: 6px
+                height: 6px
+                border-radius: 50%
+                background-color: #D6680F
+                top: 12px
+                left: 107px
+    &__title
+        font-family: Cabinet Grotesk
+        font-weight: 900
+        font-size: 32px
+        line-height: 40px
+        margin: 0
+        margin-top: 31px
+        max-width: 479px
+        position: relative
+        &::before
+            content: ''
+            position: absolute
+            width: 300px
+            height: 1px
+            background-color: #61594D
+            top: -21px
+            transition: width .4s
+    &__wrapper
+        article:hover .articles__title::before
+            width: 100%
+            background-color: #D6680F
+    &__subtitle
+        margin: 0
+        margin-top: 10px
+        max-width: 443px
